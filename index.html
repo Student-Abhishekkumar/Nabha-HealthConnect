@@ -1487,14 +1487,14 @@
             <!-- Added consultant ID field after phone number -->
             <div class="form-group">
               <label class="form-label" data-translate="consultant_id"
-                >Consultant ID (if available):</label
+                >LifeKey (if available):</label
               >
               <div style="display: flex; gap: 1rem; align-items: center">
                 <input
                   type="text"
                   class="form-input"
                   id="consultant-id"
-                  placeholder="Enter consultant ID"
+                  placeholder="Enter Health ID"
                   style="flex: 1"
                 />
                 <label
@@ -2007,14 +2007,14 @@
         <div class="section-body">
           <div class="form-group">
             <label class="form-label" data-translate="patient_id"
-              >Patient ID / Aadhaar Number:</label
+              >Health ID / Phone Number:</label
             >
             <div style="display: flex; gap: 1rem">
               <input
                 type="text"
                 class="form-input"
                 id="patient-id"
-                placeholder="Enter Patient ID or Aadhaar"
+                placeholder="Enter Health ID or Phone Number"
                 style="flex: 1"
               />
               <button
@@ -2558,7 +2558,7 @@
             "Schedule a consultation with our experienced doctors",
           patient_name: "Patient Name:",
           phone_number: "Phone Number:",
-          consultant_id: "Consultant ID (if available):",
+          consultant_id: "Health ID (if available):",
           no_consultant_id: "I don't have one",
           village_name: "Village Name:",
           doctor_type: "Specialist Type:",
@@ -2598,7 +2598,7 @@
           // Health Records
           health_records: "📋 Digital Health Records",
           records_subtitle: "Access your complete medical history securely",
-          patient_id: "Patient ID / Aadhaar Number:",
+          patient_id: "Health ID / Phone Number:",
           load_records: "🔍 Load Records",
           sample_records: "Sample Medical Records:",
           doctor: "👨‍⚕️ Doctor:",
@@ -3755,7 +3755,7 @@
 
         if (!patientId) {
           showNotification(
-            "Please enter Patient ID or Aadhaar number",
+            "Please enter Health ID or Phone number",
             "warning"
           );
           return;
@@ -3775,7 +3775,7 @@
             displayHealthRecords(records);
             showNotification("Health records loaded successfully", "success");
           } else {
-            showNotification("No records found for this Patient ID", "warning");
+            showNotification("No records found for this Health ID", "warning");
           }
         } catch (error) {
           console.error("Failed to load health records:", error);
@@ -4273,7 +4273,7 @@
           consultantIdInput.placeholder = "Not applicable";
         } else {
           consultantIdInput.disabled = false;
-          consultantIdInput.placeholder = "Enter consultant ID";
+          consultantIdInput.placeholder = "Enter Health ID";
         }
       }
 
@@ -4599,7 +4599,7 @@
                           <p><strong>Phone:</strong> ${
                             formData.patientPhone
                           }</p>
-                          <p><strong>Consultant ID:</strong> ${
+                          <p><strong>Health ID:</strong> ${
                             formData.consultantId
                           }</p>
                           <p><strong>Village:</strong> ${
