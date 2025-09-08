@@ -1,0 +1,228 @@
+{
+  "name": "Nabha HealthConnect - Enhanced Rural Telemedicine Platform",
+  "short_name": "NabhaHealth",
+  "description": "Advanced multilingual telemedicine PWA connecting 173 villages in Nabha region with comprehensive healthcare services including AI symptom checker, video consultations, and emergency services.",
+  "version": "2.0.0",
+  "manifest_version": 3,
+  "start_url": "/enhanced-nabha-health-pwa.html",
+  "id": "/enhanced-nabha-health-pwa.html",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "theme_color": "#1976D2",
+  "background_color": "#E3F2FD",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["health", "medical", "lifestyle", "productivity", "utilities"],
+  "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7",
+  
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iMTIiIGZpbGw9IiMxOTc2RDIiLz4KPHA+aCBkPSJNMjQgMTJWMzZNMTIgMjRIMzYiIHN0cm9rZT0iI0ZGRiIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPHA+aCBkPSJNMjAgMTZIMjhWMjBIMjBaIiBmaWxsPSIjRkZGIi8+CjxjaXJjbGUgY3g9IjI0IiBjeT0iMzIiIHI9IjMiIGZpbGw9IiNGRkYiLz4KPC9zdmc+Cg==",
+      "sizes": "48x48",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzIiIGhlaWdodD0iNzIiIHZpZXdCb3g9IjAgMCA3MiA3MiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjcyIiBoZWlnaHQ9IjcyIiByeD0iMTgiIGZpbGw9IiMxOTc2RDIiLz4KPHA+aCBkPSJNMzYgMThWNTRNMTggMzZINTQiIHN0cm9rZT0iI0ZGRiIgc3Ryb2tlLXdpZHRoPSI2IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPHA+aCBkPSJNMzAgMjRINDJWMzBIMzBaIiBmaWxsPSIjRkZGIi8+CjxjaXJjbGUgY3g9IjM2IiBjeT0iNDgiIHI9IjQiIGZpbGw9IiNGRkYiLz4KPC9zdmc+Cg==",
+      "sizes": "72x72",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMjQiIGZpbGw9IiMxOTc2RDIiLz4KPHA+aCBkPSJNNDggMjRWNzJNMjQgNDhINzIiIHN0cm9rZT0iI0ZGRiIgc3Ryb2tlLXdpZHRoPSI4IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPHA+aCBkPSJNNDAgMzJINTZWNDBINDBaIiBmaWxsPSIjRkZGIi8+CjxjaXJjbGUgY3g9IjQ4IiBjeT0iNjQiIHI9IjYiIGZpbGw9IiNGRkYiLz4KPC9zdmc+Cg==",
+      "sizes": "96x96",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiByeD0iNDgiIGZpbGw9IiMxOTc2RDIiLz4KPHA+aCBkPSJNOTYgNDhWMTQ0TTQ4IDk2SDE0NCIgc3Ryb2tlPSIjRkZGIiBzdHJva2Utd2lkdGg9IjE2IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPHA+aCBkPSJNODAgNjRIMTEyVjgwSDgwWiIgZmlsbD0iI0ZGRiIvPgo8Y2lyY2xlIGN4PSI5NiIgY3k9IjEyOCIgcj0iMTIiIGZpbGw9IiNGRkYiLz4KPC9zdmc+Cg==",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiByeD0iMTI4IiBmaWxsPSIjMTk3NkQyIi8+CjxwYXRoIGQ9Ik0yNTYgMTI4VjM4NE0xMjggMjU2SDM4NCIgc3Ryb2tlPSIjRkZGIiBzdHJva2Utd2lkdGg9IjQyIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPHBhdGggZD0iTTIxMyAxNzFIMjk5VjIxM0gyMTNaIiBmaWxsPSIjRkZGIi8+CjxjaXJjbGUgY3g9IjI1NiIgY3k9IjM0MSIgcj0iMzIiIGZpbGw9IiNGRkYiLz4KPC9zdmc+Cg==",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  
+  "shortcuts": [
+    {
+      "name": "Emergency Services",
+      "short_name": "Emergency",
+      "description": "Quick access to emergency healthcare services and contacts",
+      "url": "/enhanced-nabha-health-pwa.html#emergency",
+      "icons": [
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMjQiIGZpbGw9IiNEQzM1NDUiLz4KPHA+aCBkPSJNNDggMjBWNzZNMjAgNDhINzYiIHN0cm9rZT0iI0ZGRiIgc3Ryb2tlLXdpZHRoPSI4IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+Cg==",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "AI Symptom Checker",
+      "short_name": "Symptoms",
+      "description": "Check your symptoms with AI-powered preliminary diagnosis",
+      "url": "/enhanced-nabha-health-pwa.html#symptom-checker",
+      "icons": [
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMjQiIGZpbGw9IiM0Q0FGNTAIL4ZPo==",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Book Appointment",
+      "short_name": "Appointment",
+      "description": "Schedule a consultation with healthcare specialists",
+      "url": "/enhanced-nabha-health-pwa.html#appointments",
+      "icons": [
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMjQiIGZpbGw9IiNGRjk4MDAiLz4=",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Video Consultation",
+      "short_name": "Video Call",
+      "description": "Connect with doctors through secure video calls",
+      "url": "/enhanced-nabha-health-pwa.html#video-consult",
+      "icons": [
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMjQiIGZpbGw9IiMxN0EyQjgiLz4=",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ],
+  
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjcwIiBoZWlnaHQ9IjU0MCIgdmlld0JveD0iMCAwIDI3MCA1NDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIyNzAiIGhlaWdodD0iNTQwIiBmaWxsPSIjRjhGOUZBIiByeD0iMjAiLz4KPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjI3MCIgaGVpZ2h0PSI4MCIgZmlsbD0iIzE5NzZEMiIgcng9IjIwIi8+Cjx0ZXh0IHg9IjIwIiB5PSI0MCIgZmlsbD0iI0ZGRiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiBmb250LXdlaWdodD0iNjAwIj5OYWJoYSBIZWFsdGhDb25uZWN0PC90ZXh0Pgo8cmVjdCB4PSIyMCIgeT0iMTAwIiB3aWR0aD0iMjMwIiBoZWlnaHQ9IjEyMCIgZmlsbD0iI0UzRjJGRCIgcng9IjEwIi8+Cjx0ZXh0IHg9IjEzNSIgeT0iMTQwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMTk3NkQyIiBmb250LXNpemU9IjE2Ij7wn4+lIENvbm5lY3RpbmcgMTczIFZpbGxhZ2VzPC90ZXh0Pgo8dGV4dCB4PSIxMzUiIHk9IjE3MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzY3NzU3RCIgZm9udC1zaXplPSIxMiI+UXVhbGl0eSBIZWFsdGhjYXJlIEFjY2VzczwvdGV4dD4KPGcgZmlsbD0iI0ZGRiIgc3Ryb2tlPSIjMTk3NkQyIiBzdHJva2Utd2lkdGg9IjIiPgo8cmVjdCB4PSIyMCIgeT0iMjQwIiB3aWR0aD0iMTA1IiBoZWlnaHQ9IjgwIiByeD0iOCIvPgo8cmVjdCB4PSIxNDUiIHk9IjI0MCIgd2lkdGg9IjEwNSIgaGVpZ2h0PSI4MCIgcng9IjgiLz4KPHJlY3QgeD0iMjAiIHk9IjM0MCIgd2lkdGg9IjEwNSIgaGVpZ2h0PSI4MCIgcng9IjgiLz4KPHJlY3QgeD0iMTQ1IiB5PSIzNDAiIHdpZHRoPSIxMDUiIGhlaWdodD0iODAiIHJ4PSI4Ii8+CjwvZz4KPHRleHQgeD0iNzMiIHk9IjI3MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzE5NzZEMiIgZm9udC1zaXplPSIyNCI+8J+UjTwvdGV4dD4KPHRleHQgeD0iNzMiIHk9IjI5NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzMzMzMzMyIgZm9udC1zaXplPSIxMCI+U3ltcHRvbXM8L3RleHQ+Cjx0ZXh0IHg9IjE5NyIgeT0iMjcwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMTk3NkQyIiBmb250LXNpemU9IjI0Ij7wn5OFRZ08L3RleHQ+Cjx0ZXh0IHg9IjE5NyIgeT0iMjk1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMzMzMzMzIiBmb250LXNpemU9IjEwIj5BcHBvaW50bWVudDwvdGV4dD4KPHRleHQgeD0iNzMiIHk9IjM3MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzE5NzZEMiIgZm9udC1zaXplPSIyNCI+8J+SijwvdGV4dD4KPHRleHQgeD0iNzMiIHk9IjM5NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzMzMzMzMyIgZm9udC1zaXplPSIxMCI+TWVkaWNpbmU8L3RleHQ+Cjx0ZXh0IHg9IjE5NyIgeT0iMzcwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMTk3NkQyIiBmb250LXNpemU9IjI0Ij7wn5qogdC08L3RleHQ+Cjx0ZXh0IHg9IjE5NyIgeT0iMzk1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMzMzMzMzIiBmb250LXNpemU9IjEwIj5FbWVyZ2VuY3k8L3RleHQ+Cjwvc3ZnPgo=",
+      "sizes": "270x540",
+      "type": "image/svg+xml",
+      "form_factor": "narrow",
+      "label": "Mobile view showing main navigation with healthcare services"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQ4MCIgdmlld0JveD0iMCAwIDY0MCA0ODAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI2NDAiIGhlaWdodD0iNDgwIiBmaWxsPSIjRjhGOUZBIiByeD0iMTAiLz4KPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjY0MCIgaGVpZ2h0PSI4MCIgZmlsbD0iIzE5NzZEMiIgcng9IjEwIi8+Cjx0ZXh0IHg9IjIwIiB5PSI0NSIgZmlsbD0iI0ZGRiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjI0IiBmb250LXdlaWdodD0iNjAwIj5OYWJoYSBIZWFsdGhDb25uZWN0IC0gUnVyYWwgVGVsZW1lZGljaW5lPC90ZXh0Pgo8cmVjdCB4PSI0MDAiIHk9IjIwIiB3aWR0aD0iMjIwIiBoZWlnaHQ9IjQwIiBmaWxsPSJyZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMSkiIHJ4PSIyMCIvPgo8dGV4dCB4PSI0MjAiIHk9IjQyIiBmaWxsPSIjRkZGIiBmb250LXNpemU9IjE0Ij5FbmdsaXNoIOCkueCkv+CkguCkpuClgCDgqKrgqLDgqIogqKjgqLDgqY48L3RleHQ+CjxyZWN0IHg9IjIwIiB5PSIxMDAiIHdpZHRoPSI2MDAiIGhlaWdodD0iMTAwIiBmaWxsPSJsaW5lYXItZ3JhZGllbnQoMTM1ZGVnLCAjRTNGMkZEIDAlLCAjRkZGIDEwMCUpIiByeD0iMTAiLz4KPHRleHQgeD0iMzIwIiB5PSIxMzAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMxOTc2RDIiIGZvbnQtc2l6ZT0iMjgiIGZvbnQtd2VpZ2h0PSI3MDAiPvCfj6Ugum9ubmVjdGluZyAxNzMgVmlsbGFnZXMgd2l0aCBRdWFsaXR5IEhlYWx0aGNhcmU8L3RleHQ+Cjx0ZXh0IHg9IjMyMCIgeT0iMTcwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNkM3NTdEIiBmb250LXNpemU9IjE4Ij5BY2Nlc3MgZG9jdG9ycywgYm9vayBhcHBvaW50bWVudHMsIGFuZCBnZXQgbWVkaWNhbCBhc3Npc3RhbmNlPC90ZXh0PjxnIGZpbGw9IiNGRkYiIHN0cm9rZT0iIzE5NzZEMiIgc3Ryb2tlLXdpZHRoPSIyIj4KPHJlY3QgeD0iMjAiIHk9IjIyMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSIxMDAiIHJ4PSIxMCIvPgo8cmVjdCB4PSIyMjAiIHk9IjIyMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSIxMDAiIHJ4PSIxMCIvPgo8cmVjdCB4PSI0MjAiIHk9IjIyMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSIxMDAiIHJ4PSIxMCIvPgo8cmVjdCB4PSIyMCIgeT0iMzQwIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjEwMCIgcng9IjEwIi8+CjxyZWN0IHg9IjIyMCIgeT0iMzQwIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjEwMCIgcng9IjEwIi8+CjxyZWN0IHg9IjQyMCIgeT0iMzQwIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjEwMCIgcng9IjEwIi8+CjwvZz4KPHRleHQgeD0iMTEwIiB5PSI5NjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMxOTc2RDIiIGZvbnQtc2l6ZT0iMzYiPvCfko08L3RleHQ+Cjx0ZXh0IHg9IjExMCIgeT0iMjk1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMzMzMzMzIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iNjAwIj5BSSBTYW1wdG9tIENoZWNrZXI8L3RleHQ+CjwvZz4NCjwvc3ZnPgo=",
+      "sizes": "640x480",
+      "type": "image/svg+xml",
+      "form_factor": "wide",
+      "label": "Desktop view showing comprehensive telemedicine dashboard"
+    }
+  ],
+  
+  "features": [
+    "Cross Platform",
+    "Offline Capable", 
+    "Background Sync",
+    "Push Notifications",
+    "Installable",
+    "Responsive Design",
+    "AI-Powered Diagnosis",
+    "Video Consultations",
+    "Emergency Services",
+    "Multilingual Support",
+    "Accessibility Compliant",
+    "Low Bandwidth Optimized"
+  ],
+  
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  
+  "prefer_related_applications": false,
+  
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=gov.punjab.nabha.health",
+      "id": "gov.punjab.nabha.health"
+    },
+    {
+      "platform": "itunes",
+      "url": "https://apps.apple.com/app/nabha-healthconnect/id1234567890",
+      "id": "1234567890"
+    }
+  ],
+  
+  "protocol_handlers": [
+    {
+      "protocol": "tel",
+      "url": "/enhanced-nabha-health-pwa.html?action=call&number=%s"
+    },
+    {
+      "protocol": "mailto",
+      "url": "/enhanced-nabha-health-pwa.html?action=email&address=%s"
+    }
+  ],
+  
+  "file_handlers": [
+    {
+      "action": "/enhanced-nabha-health-pwa.html?action=open-prescription",
+      "accept": {
+        "application/pdf": [".pdf"],
+        "image/*": [".jpg", ".jpeg", ".png", ".webp"]
+      }
+    }
+  ],
+  
+  "share_target": {
+    "action": "/enhanced-nabha-health-pwa.html?action=share",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url",
+      "files": [
+        {
+          "name": "prescription",
+          "accept": ["image/*", "application/pdf"]
+        }
+      ]
+    }
+  },
+  
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  
+  "handle_links": "preferred",
+  
+  "scope_extensions": [
+    {"origin": "https://api.nabha-health.gov.in"},
+    {"origin": "https://nabha-health.gov.in"}
+  ],
+  
+  "categories_custom": [
+    "rural-healthcare",
+    "telemedicine",
+    "punjab-government",
+    "digital-health",
+    "emergency-services"
+  ],
+  
+  "permissions": [
+    "camera",
+    "microphone",
+    "geolocation",
+    "notifications",
+    "background-sync"
+  ],
+  
+  "offline_enabled": true,
+  "orientation_lock": false,
+  "fullscreen": false,
+  "minimal_ui": true
+}
